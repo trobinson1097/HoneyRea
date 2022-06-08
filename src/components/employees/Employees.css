@@ -1,0 +1,27 @@
+.employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.employee {
+    background: rgb(248,164,216);
+    background: radial-gradient(circle, rgba(248,164,216,1) 0%, rgba(108,99,255,1) 100%);
+    border: 2px solid;
+    font: #111;
+    border-radius: 8px;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.employee_header{
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.employee_footer {
+    margin: 1rem 0 0.25rem 0;
+    font-style: oblique;
+}
